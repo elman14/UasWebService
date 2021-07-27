@@ -11,7 +11,7 @@ class bukuseeder extends Seeder
      */
     public function run()
     {
-        DB::table('peminjamen')->insert([[
+        DB::table('bukus')->insert([[
             'judul_buku' => 'matematika',
             'penulis_buku' => 'elman',
             'penerbit_buku' => 'PT JAYA',
