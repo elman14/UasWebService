@@ -14,7 +14,7 @@ class DatabaseSeeder extends Seeder
         $this->call([
             Userseeder::class,
             bukuseeder::class,
-            peminjamanseeder::class,
+            
         ]);
     }
 }
